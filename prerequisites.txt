@@ -2,3 +2,5 @@ Minecraft Coder Pack - http://www.minecraftwiki.net/wiki/Minecraft_Coder_Pack
 Eclipse Classic - http://www.eclipse.org
 ndless SDK - http://ndlessly.wordpress.com/ndless-for-developers/
 JD-GUI - http://java.decompiler.free.fr/?q=jdgui
+
+(All of these except for eclipse can be found in /base)

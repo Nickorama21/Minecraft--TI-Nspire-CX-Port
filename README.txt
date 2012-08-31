@@ -1,0 +1,16 @@
+README:
+
+The Work in Progress is in /src/eclipse/, to edit open eclipse and set the workspace to that folder.
+
+The decompiled original and the original game are under /base
+
+Instructions on how to use the MCP are in /base/Minecraft Coder's Pack v72/docs/
+
+TODO:
+•Fixed fullscreen resolution of 320x240
+•Rewrite default keystrokes
+•Rewrite the keybinding process?
+•Change the save handler to end all file extentions in .tns (eg. texture.png.tns)
+
+Note: There might be more issues, but this is what needs to happen for now
+
