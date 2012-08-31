@@ -1,0 +1,26 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 8/31/12 1:53 PM
+Description: Unexpected error
+
+java.lang.Error: Unresolved compilation problem: 
+	The method resize(int, int) is undefined for the type Minecraft
+
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:911)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:751)
+	at java.lang.Thread.run(Thread.java:680)
+
+Relevant Details:
+- Minecraft Version: 1.3.2
+- Operating System: Mac OS X (x86_64) version 10.8
+- Java Version: 1.6.0_33, Apple Inc.
+- Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+- Memory: 995229696 bytes (949 MB) / 1065025536 bytes (1015 MB) up to 1065025536 bytes (1015 MB)
+- JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+- LWJGL: 2.4.2
+- OpenGL: ATI Radeon HD 4670 OpenGL Engine GL version 2.1 ATI-8.0.51, ATI Technologies Inc.
+- Is Modded: Very likely
+- Type: Client
+- Texture Pack: Default
+- Profiler Position: N/A (disabled)
