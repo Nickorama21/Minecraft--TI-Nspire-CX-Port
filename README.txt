@@ -14,3 +14,6 @@ TODO:
 
 Note: There might be more issues, but this is what needs to happen for now
 
+This project is in no way associated with Mojang AB.
+Minecraft and its source are the sole property of Mojang AB.
+
