@@ -7,8 +7,8 @@ The decompiled original and the original game are under /base
 Instructions on how to use the MCP are in /base/Minecraft Coder's Pack v72/docs/
 
 TODO:
-•Set the Gui to always be on fullscreen with a resolution of 320x240
-•Change the save handler to end all file extentions in .tns (eg. texture.png.tns)
+•Convert to C
+•work out the kinks!
 
 Note: There might be more issues, but this is what needs to happen for now
 
