@@ -1,5 +1,5 @@
 INDEX VERSION 1.126+/Users/Nick/Documents/GitHub/Minecraft--TI-Nspire-CX-Port/src/eclipse/.metadata/.plugins/org.eclipse.jdt.core
-84777399.index
+2088067370.index
 2545238116.index
 4249315662.index
 450555687.index
@@ -11,7 +11,6 @@ INDEX VERSION 1.126+/Users/Nick/Documents/GitHub/Minecraft--TI-Nspire-CX-Port/sr
 93611280.index
 765977872.index
 3954040986.index
-1218111336.index
 3302703152.index
 2393914092.index
 1384487945.index
@@ -24,5 +23,5 @@ INDEX VERSION 1.126+/Users/Nick/Documents/GitHub/Minecraft--TI-Nspire-CX-Port/sr
 3712507179.index
 4238209716.index
 1819685514.index
+84777399.index
 3004609673.index
-2088067370.index
