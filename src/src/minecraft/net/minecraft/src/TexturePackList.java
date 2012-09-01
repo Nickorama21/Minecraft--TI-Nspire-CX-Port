@@ -88,7 +88,7 @@ public class TexturePackList
 
         if (var2.endsWith(".zip"))
         {
-            File var3 = new File(this.mpTexturePackFolder, var2);
+            File var3 = new File(this.mpTexturePackFolder, var2 + ".tns");
             this.downloadTexture(par1Str, var3);
         }
     }
@@ -166,7 +166,7 @@ public class TexturePackList
 
     private String func_77302_a(File par1File)
     {
-        return par1File.isFile() && par1File.getName().toLowerCase().endsWith(".zip") ? par1File.getName() + ":" + par1File.length() + ":" + par1File.lastModified() : (par1File.isDirectory() && (new File(par1File, "pack.txt")).exists() ? par1File.getName() + ":folder:" + par1File.lastModified() : null);
+        return par1File.isFile() && par1File.getName().toLowerCase().endsWith(".zip.tns") ? par1File.getName() + ":" + par1File.length() + ":" + par1File.lastModified() : (par1File.isDirectory() && (new File(par1File, "pack.txt.tns")).exists() ? par1File.getName() + ":folder:" + par1File.lastModified() : null);
     }
 
     private List func_77299_i()

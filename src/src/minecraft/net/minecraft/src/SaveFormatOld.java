@@ -56,7 +56,7 @@ public class SaveFormatOld implements ISaveFormat
         }
         else
         {
-            File var3 = new File(var2, "level.dat");
+            File var3 = new File(var2, "level.dat.tns");
             NBTTagCompound var4;
             NBTTagCompound var5;
 
@@ -74,7 +74,7 @@ public class SaveFormatOld implements ISaveFormat
                 }
             }
 
-            var3 = new File(var2, "level.dat_old");
+            var3 = new File(var2, "level.dat_old.tns");
 
             if (var3.exists())
             {
@@ -105,7 +105,7 @@ public class SaveFormatOld implements ISaveFormat
 
         if (var3.exists())
         {
-            File var4 = new File(var3, "level.dat");
+            File var4 = new File(var3, "level.dat.tns");
 
             if (var4.exists())
             {

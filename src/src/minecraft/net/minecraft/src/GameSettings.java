@@ -21,24 +21,24 @@ public class GameSettings
 
     /** Limit framerate labels */
     private static final String[] LIMIT_FRAMERATES = new String[] {"performance.max", "performance.balanced", "performance.powersaver"};
-    public float musicVolume = 1.0F;
-    public float soundVolume = 1.0F;
+    public float musicVolume = 0.0F;
+    public float soundVolume = 0.0F;
     public float mouseSensitivity = 0.5F;
     public boolean invertMouse = false;
-    public int renderDistance = 0;
+    public int renderDistance = 1;
     public boolean viewBobbing = true;
     public boolean anaglyph = false;
 
     /** Advanced OpenGL */
     public boolean advancedOpengl = false;
-    public int limitFramerate = 1;
-    public boolean fancyGraphics = true;
+    public int limitFramerate = 0;
+    public boolean fancyGraphics = false;
 
     /** Smooth Lighting */
-    public boolean ambientOcclusion = true;
+    public boolean ambientOcclusion = false;
 
     /** Clouds flag */
-    public boolean clouds = true;
+    public boolean clouds = false;
 
     /** The name of the selected texture pack. */
     public String skin = "Default";
@@ -47,9 +47,9 @@ public class GameSettings
     public boolean chatLinks = true;
     public boolean chatLinksPrompt = true;
     public float chatOpacity = 1.0F;
-    public boolean serverTextures = true;
-    public boolean snooperEnabled = true;
-    public boolean fullScreen = false;
+    public boolean serverTextures = false;
+    public boolean snooperEnabled = false;
+    public boolean fullScreen = true;
     public boolean enableVsync = false;
     public boolean field_80005_w = false;
     public KeyBinding keyBindForward = new KeyBinding("key.forward", 17);
@@ -124,7 +124,7 @@ public class GameSettings
         this.particleSetting = 0;
         this.language = "en_US";
         this.mc = par1Minecraft;
-        this.optionsFile = new File(par2File, "options.txt");
+        this.optionsFile = new File(par2File, "options.txt.tns");
         this.loadOptions();
     }
 
@@ -186,17 +186,6 @@ public class GameSettings
      */
     public void setOptionFloatValue(EnumOptions par1EnumOptions, float par2)
     {
-        if (par1EnumOptions == EnumOptions.MUSIC)
-        {
-            this.musicVolume = par2;
-            this.mc.sndManager.onSoundOptionsChanged();
-        }
-
-        if (par1EnumOptions == EnumOptions.SOUND)
-        {
-            this.soundVolume = par2;
-            this.mc.sndManager.onSoundOptionsChanged();
-        }
 
         if (par1EnumOptions == EnumOptions.SENSITIVITY)
         {

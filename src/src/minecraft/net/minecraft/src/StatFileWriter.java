@@ -35,7 +35,7 @@ public class StatFileWriter
         {
             File var7 = var4[var6];
 
-            if (var7.getName().startsWith("stats_") && var7.getName().endsWith(".dat"))
+            if (var7.getName().startsWith("stats_") && var7.getName().endsWith(".dat.tns"))
             {
                 File var8 = new File(var3, var7.getName());
 

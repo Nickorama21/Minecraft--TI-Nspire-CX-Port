@@ -968,7 +968,7 @@ net/minecraft/src/RandomPositionGenerator e339913e96096428bfc08c37b1a3cd25
 net/minecraft/src/RConConsoleSource 64f1908eb17809837e401595d11765b1
 net/minecraft/src/RConOutputStream bfba7a775edb5a54c095e43441eaf2fd
 net/minecraft/src/RConThreadBase 8abb137df095c1ec4bfb0333c95ba313
-net/minecraft/src/RConThreadClient ddbbb54d17b43b2005ec44d96c261261
+net/minecraft/src/RConThreadClient ff77f903bc8bd8ef731c5bbb41d996bf
 net/minecraft/src/RConThreadMain f5abe2306a4f7cd81b987af4b9e93d2c
 net/minecraft/src/RConThreadQuery 2ff48aae7b240a85889086edf920b9c4
 net/minecraft/src/RConThreadQueryAuth 20ffef3b21877d0434a841911c59d1d3

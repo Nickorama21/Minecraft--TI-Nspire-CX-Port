@@ -52,7 +52,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
     {
         try
         {
-            File var1 = new File(this.saveDirectory, "session.lock");
+            File var1 = new File(this.saveDirectory, "session.lock.tns");
             DataOutputStream var2 = new DataOutputStream(new FileOutputStream(var1));
 
             try
@@ -86,7 +86,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
     {
         try
         {
-            File var1 = new File(this.saveDirectory, "session.lock");
+            File var1 = new File(this.saveDirectory, "session.lock.tns");
             DataInputStream var2 = new DataInputStream(new FileInputStream(var1));
 
             try
@@ -120,7 +120,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
      */
     public WorldInfo loadWorldInfo()
     {
-        File var1 = new File(this.saveDirectory, "level.dat");
+        File var1 = new File(this.saveDirectory, "level.dat.tns");
         NBTTagCompound var2;
         NBTTagCompound var3;
 
@@ -138,7 +138,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
             }
         }
 
-        var1 = new File(this.saveDirectory, "level.dat_old");
+        var1 = new File(this.saveDirectory, "level.dat_old.tns");
 
         if (var1.exists())
         {
@@ -168,9 +168,9 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
 
         try
         {
-            File var5 = new File(this.saveDirectory, "level.dat_new");
-            File var6 = new File(this.saveDirectory, "level.dat_old");
-            File var7 = new File(this.saveDirectory, "level.dat");
+            File var5 = new File(this.saveDirectory, "level.dat_new.tns");
+            File var6 = new File(this.saveDirectory, "level.dat_old.tns");
+            File var7 = new File(this.saveDirectory, "level.dat.tns");
             CompressedStreamTools.writeCompressed(var4, new FileOutputStream(var5));
 
             if (var6.exists())
@@ -209,9 +209,9 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
 
         try
         {
-            File var4 = new File(this.saveDirectory, "level.dat_new");
-            File var5 = new File(this.saveDirectory, "level.dat_old");
-            File var6 = new File(this.saveDirectory, "level.dat");
+            File var4 = new File(this.saveDirectory, "level.dat_new.tns");
+            File var5 = new File(this.saveDirectory, "level.dat_old.tns");
+            File var6 = new File(this.saveDirectory, "level.dat.tns");
             CompressedStreamTools.writeCompressed(var3, new FileOutputStream(var4));
 
             if (var5.exists())
@@ -248,8 +248,8 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
         {
             NBTTagCompound var2 = new NBTTagCompound();
             par1EntityPlayer.writeToNBT(var2);
-            File var3 = new File(this.playersDirectory, par1EntityPlayer.username + ".dat.tmp");
-            File var4 = new File(this.playersDirectory, par1EntityPlayer.username + ".dat");
+            File var3 = new File(this.playersDirectory, par1EntityPlayer.username + ".dat.tmp.tns");
+            File var4 = new File(this.playersDirectory, par1EntityPlayer.username + ".dat.tns");
             CompressedStreamTools.writeCompressed(var2, new FileOutputStream(var3));
 
             if (var4.exists())
@@ -285,7 +285,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
     {
         try
         {
-            File var2 = new File(this.playersDirectory, par1Str + ".dat");
+            File var2 = new File(this.playersDirectory, par1Str + ".dat.tns");
 
             if (var2.exists())
             {
@@ -317,7 +317,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
 
         for (int var2 = 0; var2 < var1.length; ++var2)
         {
-            if (var1[var2].endsWith(".dat"))
+            if (var1[var2].endsWith(".dat.tns"))
             {
                 var1[var2] = var1[var2].substring(0, var1[var2].length() - 4);
             }
@@ -336,7 +336,7 @@ public class SaveHandler implements ISaveHandler, IPlayerFileData
      */
     public File getMapFileFromName(String par1Str)
     {
-        return new File(this.mapDataDir, par1Str + ".dat");
+        return new File(this.mapDataDir, par1Str + ".dat.tns");
     }
 
     /**

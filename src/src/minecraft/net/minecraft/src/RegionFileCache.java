@@ -18,7 +18,7 @@ public class RegionFileCache
     public static synchronized RegionFile createOrLoadRegionFile(File par0File, int par1, int par2)
     {
         File var3 = new File(par0File, "region");
-        File var4 = new File(var3, "r." + (par1 >> 5) + "." + (par2 >> 5) + ".mca");
+        File var4 = new File(var3, "r." + (par1 >> 5) + "." + (par2 >> 5) + ".mca.tns");
         Reference var5 = (Reference)regionsByFilename.get(var4);
         RegionFile var6;
 

@@ -26,7 +26,7 @@ public enum EnumOptions
     CHAT_LINKS_PROMPT("options.chat.links.prompt", false, true),
     USE_SERVER_TEXTURES("options.serverTextures", false, true),
     SNOOPER_ENABLED("options.snooper", false, true),
-    USE_FULLSCREEN("options.fullscreen", false, true),
+    USE_FULLSCREEN("options.fullscreen", true, false),
     ENABLE_VSYNC("options.vsync", false, true);
     private final boolean enumFloat;
     private final boolean enumBoolean;

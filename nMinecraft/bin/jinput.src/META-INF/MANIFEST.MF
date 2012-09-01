@@ -1,0 +1,475 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_17 (Sun Microsystems Inc.)
+
+Name: net/java/games/input/Controller$Type.class
+SHA1-Digest: FzK7MBr7zJS/PyT00lJeGs38HIc=
+
+Name: net/java/games/input/LinuxJoystickEvent.class
+SHA1-Digest: fOBV9J1rflTbnndkgSeOjji0kVA=
+
+Name: net/java/games/input/DIDeviceObjectData.class
+SHA1-Digest: n+j/wbwbjmeihG1/Ry06gpSxVuM=
+
+Name: net/java/games/input/LinuxPOV.class
+SHA1-Digest: rwAj0inTw+Nd9jgq2uVgBQxcRPw=
+
+Name: net/java/games/input/PluginClassLoader.class
+SHA1-Digest: kaNcSdvzxrhvRSauazYUYKj+AAw=
+
+Name: net/java/games/input/OSXComponent.class
+SHA1-Digest: BzkO9Mp/IuIf0ddK+7GcvdYODpc=
+
+Name: net/java/games/input/UsagePage.class
+SHA1-Digest: 1lYJjvgqVj9PeZ9dXmIL1Fg/cDQ=
+
+Name: net/java/games/input/WinTabDevice.class
+SHA1-Digest: 3gNpYfB2gGizD1lqxv3wNBxaCLw=
+
+Name: net/java/games/input/DefaultControllerEnvironment.class
+SHA1-Digest: nDDsb093HhVrQGPXZTXQHykj8/k=
+
+Name: net/java/games/input/WinTabCursorComponent.class
+SHA1-Digest: /yV8XcQFibI+IcnXFChLszvJ26o=
+
+Name: net/java/games/input/Component$Identifier$Key.class
+SHA1-Digest: dGuiVcGBuoPtMxl/VrsAv4RhebU=
+
+Name: net/java/games/input/RawDevice.class
+SHA1-Digest: N7WSMAdN1sOAxwTdgMLIGP+SHW4=
+
+Name: net/java/games/util/plugins/Plugins.class
+SHA1-Digest: L1eYREIrn61qrZDVAWR8HQo8MXg=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin$ShutdownHook.class
+SHA1-Digest: 0ddNqA5rj6NnyLo59GrB4yfbwgk=
+
+Name: net/java/games/input/OSXEnvironmentPlugin$2.class
+SHA1-Digest: 9ggb/LlQ+A7YGhTSJst09EsHaV8=
+
+Name: net/java/games/input/DefaultControllerEnvironment$2.class
+SHA1-Digest: 4hVm+ukkseJy4GFG+whkOmuypLQ=
+
+Name: net/java/games/input/IDirectInputEffect.class
+SHA1-Digest: EGuyCjIwu2Fh5Z/GEOK7LvDD5PY=
+
+Name: net/java/games/input/PluginClassLoader$JarFileFilter.class
+SHA1-Digest: 5DkzYI+c8phuljGUxKmdRbh76Ec=
+
+Name: net/java/games/input/GenericDesktopUsage.class
+SHA1-Digest: ju/l4F4lLG0cTPucJgJ3M753HBw=
+
+Name: net/java/games/input/RawKeyboard.class
+SHA1-Digest: TcruNZ1Z8ie52cr4wwZQj7D2wmY=
+
+Name: net/java/games/input/IDirectInput.class
+SHA1-Digest: VbG7gf4NVgYoYVwIZwO0g/0oLqw=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin$1.class
+SHA1-Digest: 19NlVAsPZXY6jZEribu5jhJfnWY=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin.class
+SHA1-Digest: FZKZLT5ttoNaJcG4MMNp+DS52Uc=
+
+Name: net/java/games/input/EventQueue.class
+SHA1-Digest: FRwal58+mxwhD/iH8XjgeATuk04=
+
+Name: net/java/games/input/OSXMouse.class
+SHA1-Digest: xyRZABGe3y7NnojaKAwB5r6Tj5w=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin$3.class
+SHA1-Digest: vkefAN02eXss1/HUsk7qo/MCEys=
+
+Name: net/java/games/input/AWTEnvironmentPlugin.class
+SHA1-Digest: PzXy+5I5x7GxXkmF5JwpsjMwEk0=
+
+Name: net/java/games/input/AWTMouse$Button.class
+SHA1-Digest: uT9ZjWRctXhAzski+rNPcWqe8Pc=
+
+Name: net/java/games/input/RawInputEventQueue$QueueThread.class
+SHA1-Digest: 4QGXcUXpiL7yVggOXIKohxy2oDo=
+
+Name: net/java/games/input/RawMouse.class
+SHA1-Digest: D5ETYbA2/xl3vcX8y1NKz75Gb1w=
+
+Name: net/java/games/input/LinuxComponent.class
+SHA1-Digest: U12wO510AMDwwX2gv9fa5xFqxDU=
+
+Name: net/java/games/input/Event.class
+SHA1-Digest: 4f6TbSlKaWW0fpaIMqAUPiRxXxc=
+
+Name: net/java/games/input/OSXEnvironmentPlugin$3.class
+SHA1-Digest: VuGFat9CJw4rIHAVrSoD6Wl0Hrs=
+
+Name: net/java/games/input/AWTKeyboard$Key.class
+SHA1-Digest: 08jE8EFy5bksFN1jurTktQpvtmU=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$2.class
+SHA1-Digest: pWEbhbtLx0cWzQH5u1tponDe6jY=
+
+Name: net/java/games/input/LinuxCombinedController.class
+SHA1-Digest: rRGjFm2iR/5ldlEc1fvbDqmU4aE=
+
+Name: net/java/games/input/LinuxAbsInfo.class
+SHA1-Digest: WGeF2nxQ+PGqXqK1DA9nGBEIrCg=
+
+Name: net/java/games/input/LinuxAxisDescriptor.class
+SHA1-Digest: U8SDFhKhc3DmG23HcL3k/qiskCM=
+
+Name: net/java/games/input/RawInputEnvironmentPlugin.class
+SHA1-Digest: l3FDxfzABHV+O1/WMJNoPy4wTxY=
+
+Name: net/java/games/input/ControllerEnvironment.class
+SHA1-Digest: lepW0qDQhydy/QSap9rnTn0Q64Y=
+
+Name: net/java/games/input/WinTabContext.class
+SHA1-Digest: /zgMLewCOX9G2zeHM2nweluOOYk=
+
+Name: net/java/games/input/RawInputEnvironmentPlugin$1.class
+SHA1-Digest: VHBXySqBK/BPLbvVaOzRtY0hhrg=
+
+Name: net/java/games/input/AbstractComponent.class
+SHA1-Digest: TPdoPv+Dj9I8smC3JoZWbadc3Eg=
+
+Name: net/java/games/input/WinTabPacket.class
+SHA1-Digest: 4qqCPxdQAiyqH2X5PI1WxnIcP5A=
+
+Name: net/java/games/input/OSXAbstractController.class
+SHA1-Digest: JhCKqs3F0hvT4gKToBkXPTcArL0=
+
+Name: net/java/games/input/DIKeyboard.class
+SHA1-Digest: U042Ee6amvE6f11uJeZmlQNbRiY=
+
+Name: net/java/games/input/DefaultControllerEnvironment$4.class
+SHA1-Digest: Ai5wSr666i6TIp4chayb/2bPvJA=
+
+Name: net/java/games/input/Controller$PortType.class
+SHA1-Digest: dZ2GjYnSS2R/M9Ht57psli21fNg=
+
+Name: net/java/games/input/OSXKeyboard.class
+SHA1-Digest: IWs3/3ydEIAu4HURgC/GexL2FWI=
+
+Name: net/java/games/input/OSXControllers.class
+SHA1-Digest: aKJvkdvWqcfixGoTNoDJ+A/Mq8w=
+
+Name: net/java/games/input/DIAbstractController.class
+SHA1-Digest: r0awaCBl/ebd7i+gQ296a1djpUw=
+
+Name: net/java/games/input/UsagePair.class
+SHA1-Digest: fv15jAiuUqBKsgQ1KEF/8HNHJ0M=
+
+Name: net/java/games/input/LinuxJoystickDevice.class
+SHA1-Digest: NgbiIhfS55prZUztN5lnkah62hE=
+
+Name: net/java/games/input/LinuxNativeTypesMap.class
+SHA1-Digest: PmmGXvvDu/3lNQyoKkBp3HsrLsk=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin$4.class
+SHA1-Digest: cxRqtUYhyCIa7tMUfy6gEoVlOXs=
+
+Name: net/java/games/input/OSXEvent.class
+SHA1-Digest: SsyoSobqSY9iWO8sD5j2Pyrkhao=
+
+Name: net/java/games/input/DefaultControllerEnvironment$1.class
+SHA1-Digest: Q3xAsBWyLdDH4B/RruflVMYxReg=
+
+Name: net/java/games/input/LinuxForceFeedbackEffect$WriteTask.class
+SHA1-Digest: yVnTBWeeFRIEacplUls6Xm0bDCg=
+
+Name: net/java/games/input/Component$Identifier.class
+SHA1-Digest: tLKorIlwNTqj4Id7ZecvHkg9Dss=
+
+Name: net/java/games/input/Rumbler.class
+SHA1-Digest: gga/EwDn9JA9DOyauyqJVY9c4VY=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin$2.class
+SHA1-Digest: GTKjSSQ+J99tybJtz32g79Y8GBY=
+
+Name: net/java/games/input/DefaultControllerEnvironment$3.class
+SHA1-Digest: db6fS7PLtdohYHJZWCFc99RetDI=
+
+Name: net/java/games/input/SetupAPIDevice.class
+SHA1-Digest: uEcL+tbnAKiZq9dS8QBi2fzwf7A=
+
+Name: net/java/games/input/LinuxJoystickPOV.class
+SHA1-Digest: 2nF2fJhI1M4RbiS9JVoBi7Ziyfk=
+
+Name: net/java/games/input/ControllerListener.class
+SHA1-Digest: te6KOtmcQpPp3PcnL3MiAC3dAiE=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$7.class
+SHA1-Digest: +hzJQLEr/0zDfqP4GzJleo22UOM=
+
+Name: net/java/games/input/Mouse.class
+SHA1-Digest: 3PqKzugWqUc+hDQbUPTEBGcLWB4=
+
+Name: net/java/games/input/KeyboardUsage.class
+SHA1-Digest: IRaTIgM1ziXJft8XI3WwGw3ZMd0=
+
+Name: net/java/games/input/RawInputEnvironmentPlugin$2.class
+SHA1-Digest: 7RqgOA2zTfXT5e8VRBAfMVWyOXg=
+
+Name: net/java/games/input/RawKeyboardInfo.class
+SHA1-Digest: +WnGFHOVW5bJgpOxxA1z4O1XjE4=
+
+Name: net/java/games/input/Version.class
+SHA1-Digest: muRTw5XpmfbP8KtMST+7MSMINT0=
+
+Name: net/java/games/input/LinuxInputID.class
+SHA1-Digest: SOOhFLtmGgz+s22rF4H5qk+e4vs=
+
+Name: net/java/games/input/AWTMouse$Axis.class
+SHA1-Digest: PvAsLnSlQVyOpgqHnLVgQtHVEFQ=
+
+Name: net/java/games/input/LinuxForceFeedbackEffect.class
+SHA1-Digest: nIs3mnWaWHBBuFluy0VPP35wrLU=
+
+Name: net/java/games/input/LinuxRumbleFF.class
+SHA1-Digest: 7lHSonE+C9JwVGMXRUE5V6c/ltg=
+
+Name: net/java/games/input/Component$Identifier$Button.class
+SHA1-Digest: 2ktj/zhOaY6jB28hFmHg1hWJOdk=
+
+Name: net/java/games/input/LinuxEventDevice$1.class
+SHA1-Digest: TXOpxEn7gFVwK/dPBXNG8aqrYuk=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin$ShutdownHook.c
+ lass
+SHA1-Digest: Y+L/CM7BAqj8zlxq9GhHwGhOUHc=
+
+Name: net/java/games/input/RawInputEnvironmentPlugin$3.class
+SHA1-Digest: ztplqGD/EEgfiQ7QjfnBz9hwoMQ=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$5.class
+SHA1-Digest: ZDYz7ZuRT/cxoT0zVO2y5d8xw1o=
+
+Name: net/java/games/input/LinuxControllers.class
+SHA1-Digest: KIhVIy7u0mJDtQywDqU24pKUkB0=
+
+Name: net/java/games/input/AWTMouse.class
+SHA1-Digest: e4/I1TFhJeVNb6jFRaeAOcdgwjo=
+
+Name: net/java/games/input/LinuxKeyboard.class
+SHA1-Digest: yIbRtJcELNG6ZcIQjEovyOAS0Is=
+
+Name: net/java/games/input/LinuxDeviceTask.class
+SHA1-Digest: OCkj5o07VAIAASLACl2cqlv7b6M=
+
+Name: net/java/games/input/RawIdentifierMap.class
+SHA1-Digest: p9bWe3SaB4uK1fzf+kT9LWmfDv4=
+
+Name: net/java/games/input/Usage.class
+SHA1-Digest: iIg82uIspUFzm3gNnccZwhV0OB4=
+
+Name: net/java/games/input/PluginClassLoader$1.class
+SHA1-Digest: +Ld2ja7+oPYM6qCJ8l8pUmzEEIM=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$4.class
+SHA1-Digest: RCOpr/dcdcNp+vuDMas7pJX+QBk=
+
+Name: net/java/games/input/LinuxJoystickAxis.class
+SHA1-Digest: W5QIR2hNvURPdYEKNf2V6SM9klU=
+
+Name: net/java/games/input/LinuxDevice.class
+SHA1-Digest: AUsymhJ8X3jh3hYzMVPLjoyBznY=
+
+Name: net/java/games/input/LinuxEventComponent.class
+SHA1-Digest: /kOb+dJN50wzYpL/710/J5P8P1Q=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$8.class
+SHA1-Digest: eW94JJPKFsmTBZEbpIiAIzlqRLA=
+
+Name: net/java/games/input/AWTKeyboard.class
+SHA1-Digest: OFlNYMAbfUJ7RMM9B6FcP7lnNkM=
+
+Name: net/java/games/input/WinTabButtonComponent.class
+SHA1-Digest: wunmeHPOt2FSk3TsEFBMvDn8rvw=
+
+Name: net/java/games/input/OSXHIDDeviceIterator.class
+SHA1-Digest: E6BTQ/tHt1xCmAV4g8FXy1BL7aY=
+
+Name: net/java/games/input/OSXHIDElement.class
+SHA1-Digest: XSKBMIQmEUbz/r0w0ZNLK4ySk/Y=
+
+Name: net/java/games/input/RawDeviceInfo.class
+SHA1-Digest: 3mllY+NcZt2CCHfCJyhFHL0zEP0=
+
+Name: net/java/games/input/RawKeyboard$Key.class
+SHA1-Digest: 2MslWINLDQX2q2TymeXUd6cZcNQ=
+
+Name: net/java/games/input/DataQueue.class
+SHA1-Digest: 8TAepgzglvolUYrydusOMnGApBw=
+
+Name: net/java/games/input/LinuxMouse.class
+SHA1-Digest: pmJ6QBmV6wP+W04nZDUQZphv504=
+
+Name: net/java/games/input/RawMouseEvent.class
+SHA1-Digest: ILuqC6HU6ZwKstuh6V0uiEbGO6A=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin$3.class
+SHA1-Digest: PAM1tTfzYrb8Qy2xDa/91rO53B4=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin$4.class
+SHA1-Digest: JyEuCIw13Bc6HPkLw9lD9otPiu8=
+
+Name: net/java/games/input/AWTKeyMap.class
+SHA1-Digest: hj9pzhC0bRPj2XpLFQPrxOQetJU=
+
+Name: net/java/games/input/LinuxJoystickButton.class
+SHA1-Digest: ppThc08cKNdagRH84FCJzER8tIM=
+
+Name: net/java/games/input/DIComponent.class
+SHA1-Digest: 9WuRSL4ZJdqg/5OKiTQpWleN+ek=
+
+Name: net/java/games/input/LinuxEvent.class
+SHA1-Digest: n/O5GnzpBld6k6UjJahSwl0zDyk=
+
+Name: net/java/games/input/LinuxEventDevice.class
+SHA1-Digest: foAJIg5vwuMno+HvNcmNhImkmX8=
+
+Name: net/java/games/input/DIIdentifierMap.class
+SHA1-Digest: zuxbCNowP8R46O+ErMdktLjqRWA=
+
+Name: net/java/games/input/DIDeviceObject.class
+SHA1-Digest: uM54L24pqZ+krkRsyWqeBTxLWL0=
+
+Name: net/java/games/input/ElementType.class
+SHA1-Digest: uglzclwCfyrlsNvivy87S6o5PFc=
+
+Name: net/java/games/input/RawKeyboardEvent.class
+SHA1-Digest: i738RfnKIHLD/essGaoeH0AZ/sU=
+
+Name: net/java/games/input/LinuxJoystickAbstractController.class
+SHA1-Digest: ktw81KFFCbGU0dfFJw8Vl/HmXpY=
+
+Name: net/java/games/input/RawMouse$Button.class
+SHA1-Digest: 3LzXwb8v5c2NOoju9nkFgUj0YCc=
+
+Name: net/java/games/input/LinuxConstantFF.class
+SHA1-Digest: t3+RD/Y7ADkgfyy2Ml603jsFCmY=
+
+Name: net/java/games/input/ButtonUsage.class
+SHA1-Digest: XMZBBJiSBeGqgBQajtmE9wu+8Zg=
+
+Name: net/java/games/input/DIMouse.class
+SHA1-Digest: wqtGXd2qjLas0ekkSrX3j8+IeRw=
+
+Name: net/java/games/input/LinuxAbstractController.class
+SHA1-Digest: zYJCyEBv42P3ELJfZuVbq/vZOm0=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin$1.class
+SHA1-Digest: nEpiZubPA7oEdTAH9cxzTHZrm6c=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin.class
+SHA1-Digest: bVQ0d+X15tUKKl3Kkx2tyPvQhSs=
+
+Name: net/java/games/input/DummyWindow.class
+SHA1-Digest: 6NnEJ7HnIrtlJtqwPZc6PnbDH/s=
+
+Name: net/java/games/input/Keyboard.class
+SHA1-Digest: 9oLYS97VqDESaZ6mdVdpjCDSDVo=
+
+Name: net/java/games/input/Controller.class
+SHA1-Digest: 5rd7uB6JmqiMuKXX5sk+qldoulE=
+
+Name: net/java/games/input/DIControllers.class
+SHA1-Digest: XK+++FnnXn+jQMPt3OZ/gwgYzu8=
+
+Name: net/java/games/input/OSXEnvironmentPlugin$1.class
+SHA1-Digest: hDOJqzHPHMQCztXR/Cq4LYOaP7U=
+
+Name: net/java/games/input/OSXHIDDevice.class
+SHA1-Digest: Wbm4tmKx/nywZwTMtkA62XThIlM=
+
+Name: net/java/games/input/RawMouse$Axis.class
+SHA1-Digest: SvrLwMLGRk71Rf3j7Ej0uuv98Ms=
+
+Name: net/java/games/util/plugins/Plugin.class
+SHA1-Digest: m0z1GfJazpo+QjlGLvbzwMgOTk0=
+
+Name: net/java/games/input/DIEffectInfo.class
+SHA1-Digest: BfRT5yjj7mBL+F83J/nMXelTt8M=
+
+Name: net/java/games/input/DirectInputEnvironmentPlugin.class
+SHA1-Digest: f85NK9CvJ7V0e0VIeKS8O1ocC/o=
+
+Name: net/java/games/input/Component$POV.class
+SHA1-Digest: xN0xg7sYC/JcmS0twdjnIoQMNZ0=
+
+Name: net/java/games/input/NativeDefinitions.class
+SHA1-Digest: Ga/2qz20X+k8LuzeaQdUsLGo91Y=
+
+Name: net/java/games/util/Version.class
+SHA1-Digest: pSWYwtWq3/0tv7NoyEOLHoHlCSU=
+
+Name: net/java/games/input/LinuxForceFeedbackEffect$UploadTask.class
+SHA1-Digest: uochAwvE/kpoOQqkznbVuX0xguw=
+
+Name: net/java/games/input/Component.class
+SHA1-Digest: ZuAQczK9fOXNn1RJvqrTAWTtKiU=
+
+Name: net/java/games/input/DirectAndRawInputEnvironmentPlugin.class
+SHA1-Digest: Pt/2AbcJ4HokK1B+O5eJnISQOuQ=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$ShutdownHook.class
+SHA1-Digest: 2JjO4UZlisPChl8gqlILRyA1M8o=
+
+Name: net/java/games/input/OSXHIDQueue.class
+SHA1-Digest: Ob+GNUqw8CjVO1BOTF9l6zoWs6A=
+
+Name: net/java/games/input/RawMouseInfo.class
+SHA1-Digest: XyLP7wod82j2qD8/Q4Z9zfBEBXw=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$1.class
+SHA1-Digest: /4YoN4Lv0ycpQaGk/vXuH4pmt8Y=
+
+Name: net/java/games/input/AbstractController.class
+SHA1-Digest: OsirW7y3IM5Q/riKyQomKsru9QE=
+
+Name: net/java/games/input/OSXEnvironmentPlugin.class
+SHA1-Digest: F/ZQV/aI5YpadAO4F6xdgOUvFnI=
+
+Name: net/java/games/util/plugins/PluginLoader.class
+SHA1-Digest: z1AsW72bryXDSAgk9FYZUFCTBW8=
+
+Name: net/java/games/input/IDirectInputDevice.class
+SHA1-Digest: I2djq+ouNc7MFdhUdTgRaxdkKPk=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$6.class
+SHA1-Digest: rvx9l9hF+rUYQcCO81/OUehmqR4=
+
+Name: net/java/games/input/WinTabEnvironmentPlugin$2.class
+SHA1-Digest: 26trK8cUlrHsagVdH7cLQUrQNq4=
+
+Name: net/java/games/input/LinuxForceFeedbackEffect$1.class
+SHA1-Digest: EFLbVDc5aJdTINr01IrY0DeIgsM=
+
+Name: net/java/games/util/plugins/test/PluginTest.class
+SHA1-Digest: BKaWKnvRqRlNl1+cD6mZM5PRQ0E=
+
+Name: net/java/games/input/Component$Identifier$Axis.class
+SHA1-Digest: ppvRk+NV6EDhI0DKu82k56K/B3g=
+
+Name: net/java/games/util/plugins/test/ListUpdater.class
+SHA1-Digest: G7VRQ3x2YjHwTO3IzE+C6/Q7YPk=
+
+Name: net/java/games/input/ControllerEvent.class
+SHA1-Digest: MOHMwxfW2uCU397rZOgynzj4SEA=
+
+Name: net/java/games/input/RawHIDInfo.class
+SHA1-Digest: RGm4X3IhgantF+rORl4POF6CO2Q=
+
+Name: net/java/games/util/plugins/test/ClassRenderer.class
+SHA1-Digest: +jVRdeLsVrr80dx4oNqWGxDf4W4=
+
+Name: net/java/games/input/LinuxDeviceThread.class
+SHA1-Digest: fyS0yrOCkKlXTIRvmGN958/vAhw=
+
+Name: net/java/games/input/WinTabComponent.class
+SHA1-Digest: na/0tqk3sSFMVb/ZDhLgclXDkrI=
+
+Name: net/java/games/input/RawInputEventQueue.class
+SHA1-Digest: GphnjewAshinCnKATHS73SLk32M=
+
+Name: net/java/games/input/LinuxEnvironmentPlugin$3.class
+SHA1-Digest: 7TBgz8uZeEXOca8+u6hwA0lTpO8=
+

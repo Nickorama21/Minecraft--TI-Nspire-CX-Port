@@ -6,7 +6,7 @@
 #
 # RetroGuard MCP v3.6.5
 #
-# Logfile created on Fri Aug 31 10:38:05 CDT 2012
+# Logfile created on Sat Sep 01 01:38:51 CDT 2012
 #
 # Jar file to be obfuscated:           minecraft.jar
 # Target Jar file for obfuscated code: minecraft_rg.jar
@@ -26,7 +26,7 @@
 #      Your class aoq uses '.class' or calls java/lang/Class.forName(Ljava/lang/String;)Ljava/lang/Class;
 #      Your class aoq calls the java/lang/Class method getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 #
-# Memory in use after class data structure built: 15258336 bytes
+# Memory in use after class data structure built: 15258536 bytes
 # Total memory available                        : 85000192 bytes
 #
 #

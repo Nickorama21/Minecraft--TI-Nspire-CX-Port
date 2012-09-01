@@ -44,21 +44,21 @@ public class StatsSyncher
 
     public StatsSyncher(Session par1Session, StatFileWriter par2StatFileWriter, File par3File)
     {
-        this.unsentDataFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.dat");
+        this.unsentDataFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.dat.tns");
         this.dataFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + ".dat");
-        this.unsentOldFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.old");
+        this.unsentOldFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.old.tns");
         this.oldFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + ".old");
-        this.unsentTempFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.tmp");
+        this.unsentTempFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + "_unsent.tmp.tns");
         this.tempFile = new File(par3File, "stats_" + par1Session.username.toLowerCase() + ".tmp");
 
         if (!par1Session.username.toLowerCase().equals(par1Session.username))
         {
-            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.dat", this.unsentDataFile);
-            this.func_77412_a(par3File, "stats_" + par1Session.username + ".dat", this.dataFile);
-            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.old", this.unsentOldFile);
-            this.func_77412_a(par3File, "stats_" + par1Session.username + ".old", this.oldFile);
-            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.tmp", this.unsentTempFile);
-            this.func_77412_a(par3File, "stats_" + par1Session.username + ".tmp", this.tempFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.dat.tns", this.unsentDataFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + ".dat.tns", this.dataFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.old.tns", this.unsentOldFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + ".old.tns", this.oldFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + "_unsent.tmp.tns", this.unsentTempFile);
+            this.func_77412_a(par3File, "stats_" + par1Session.username + ".tmp.tns", this.tempFile);
         }
 
         this.statFileWriter = par2StatFileWriter;

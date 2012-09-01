@@ -24,12 +24,10 @@ public class GuiIngameMenu extends GuiScreen
         }
 
         this.controlList.add(new GuiButton(4, this.width / 2 - 100, this.height / 4 + 24 + var1, StatCollector.translateToLocal("menu.returnToGame")));
-        this.controlList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 96 + var1, 98, 20, StatCollector.translateToLocal("menu.options")));
-        GuiButton var3;
-        this.controlList.add(var3 = new GuiButton(7, this.width / 2 + 2, this.height / 4 + 96 + var1, 98, 20, StatCollector.translateToLocal("menu.shareToLan")));
+        this.controlList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 96 + var1, StatCollector.translateToLocal("menu.options")));
         this.controlList.add(new GuiButton(5, this.width / 2 - 100, this.height / 4 + 48 + var1, 98, 20, StatCollector.translateToLocal("gui.achievements")));
         this.controlList.add(new GuiButton(6, this.width / 2 + 2, this.height / 4 + 48 + var1, 98, 20, StatCollector.translateToLocal("gui.stats")));
-        var3.enabled = this.mc.isSingleplayer() && !this.mc.getIntegratedServer().func_71344_c();
+
     }
 
     /**

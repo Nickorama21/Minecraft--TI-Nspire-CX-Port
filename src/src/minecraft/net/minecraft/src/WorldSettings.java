@@ -51,7 +51,7 @@ public final class WorldSettings
      */
     public WorldSettings enableCommands()
     {
-        this.commandsAllowed = true;
+        this.commandsAllowed = false;
         return this;
     }
 

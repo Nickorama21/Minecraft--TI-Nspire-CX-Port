@@ -323,20 +323,7 @@ public abstract class Minecraft implements Runnable, IPlayerUsage
      */
     public void startGame() throws LWJGLException
     {
-        if (this.mcCanvas != null)
-        {
-            Graphics var1 = this.mcCanvas.getGraphics();
-
-            if (var1 != null)
-            {
-                var1.setColor(Color.BLACK);
-                var1.fillRect(0, 0, this.displayWidth, this.displayHeight);
-                var1.dispose();
-            }
-
-            Display.setParent(this.mcCanvas);
-        }
-        else if (this.fullscreen)
+    	if (this.fullscreen)
         {
             Display.setFullscreen(true);
             this.displayWidth = Display.getDisplayMode().getWidth();
@@ -352,12 +339,25 @@ public abstract class Minecraft implements Runnable, IPlayerUsage
                 this.displayHeight = 1;
             }
         }
+        else if (this.mcCanvas != null)
+        {
+            Graphics var1 = this.mcCanvas.getGraphics();
+
+            if (var1 != null)
+            {
+                var1.setColor(Color.BLACK);
+                var1.fillRect(0, 0, this.displayWidth, this.displayHeight);
+                var1.dispose();
+            }
+
+            Display.setParent(this.mcCanvas);
+        }
         else
         {
             Display.setDisplayMode(new DisplayMode(this.displayWidth, this.displayHeight));
         }
 
-        Display.setTitle("Minecraft Minecraft 1.3.2");
+        Display.setTitle("Minecraft 1.3.2");
         System.out.println("LWJGL Version: " + Sys.getVersion());
 
         try
@@ -721,7 +721,8 @@ public static EnumOS getOs()
 
         try
         {
-            this.startGame();
+        	this.toggleFullscreen();
+        	this.startGame();
         }
         catch (Exception var11)
         {
@@ -1347,29 +1348,29 @@ public static EnumOS getOs()
                     this.displayHeight = 1;
                 }
             }
+        else
+        {
+            if (this.mcCanvas != null)
+            {
+                this.displayWidth = this.mcCanvas.getWidth();
+                this.displayHeight = this.mcCanvas.getHeight();
+            }
             else
             {
-                if (this.mcCanvas != null)
-                {
-                    this.displayWidth = this.mcCanvas.getWidth();
-                    this.displayHeight = this.mcCanvas.getHeight();
-                }
-                else
-                {
-                    this.displayWidth = this.tempDisplayWidth;
-                    this.displayHeight = this.tempDisplayHeight;
-                }
-
-                if (this.displayWidth <= 0)
-                {
-                    this.displayWidth = 1;
-                }
-
-                if (this.displayHeight <= 0)
-                {
-                    this.displayHeight = 1;
-                }
+                this.displayWidth = this.tempDisplayWidth;
+                this.displayHeight = this.tempDisplayHeight;
             }
+
+            if (this.displayWidth <= 0)
+            {
+                this.displayWidth = 1;
+            }
+
+            if (this.displayHeight <= 0)
+            {
+                this.displayHeight = 1;
+            }
+        }
 
             if (this.currentScreen != null)
             {
